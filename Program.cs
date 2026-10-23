@@ -11,10 +11,12 @@
             int a = 5;
             int sum = a + b;
             int minus = a - b;
+            int dil = a / b;
 
 
             Console.WriteLine($"Сума:{sum}");
             Console.WriteLine($"Різниця:{minus}");
+            Console.WriteLine($"Частка:{dil}");
         }
     }
 }
